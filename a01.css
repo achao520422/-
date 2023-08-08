@@ -1,0 +1,55 @@
+* {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+  background: #666;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border: 2px solid pink;
+  border-radius: 15%;
+
+}
+
+
+input {
+  border: 1px solid skyblue;
+  height: 16px;
+  width: 150px;
+  margin-bottom: 20px;
+  outline: none
+}
+
+
+button {
+  border: 2px solid pink;
+  width: 40px;
+  height: 20px;
+  margin-top: 20px;
+  background: pink;
+  margin-left: 10px;
+}
+
+
+
+button:hover {
+  cursor: pointer;
+  background-color: skyblue;
+}
